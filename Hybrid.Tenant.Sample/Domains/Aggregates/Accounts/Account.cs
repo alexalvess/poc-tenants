@@ -6,6 +6,8 @@ public class Account : AggregateRoot, IAccount
 {
     public string Name { get; private set; }
 
+    public string Nin { get; private set; }
+
     public string Email { get; private set; }
 
     public byte Password { get; private set; }
